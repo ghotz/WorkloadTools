@@ -302,6 +302,9 @@
     <Content Include="Consumer\Analysis\DatabaseSchema.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Listener\ExtendedEvents\sqlworkload-nobackups.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
